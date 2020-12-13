@@ -1,11 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <div class="logoload"></div>
-<script>
-$(function() {
-  var loadLogo = $('header').find('img').attr('src');
-  $('.logoload').css('background-image', 'url(' + loadLogo + ')');
-});
-</script>
 <style>
 .logoload {
   /* SET BACKGROUND COLOR */
@@ -20,6 +14,7 @@ $(function() {
   z-index: 9999;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/04/TMONE_logo.png");
 }
 </style>
 <script type="text/javascript">
@@ -27,6 +22,9 @@ $(window).load(function() {
     $(".logoload").delay(500).fadeOut("slow");
 })
 </script>
+ 
+
+
 <!DOCTYPE html>
 <html amp >
 <head>
